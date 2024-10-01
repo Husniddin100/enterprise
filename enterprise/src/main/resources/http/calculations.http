@@ -1,0 +1,24 @@
+#### create calculation table
+POST localhost:8080/calculation/create
+Content-Type: application/json
+
+{
+  "employeeId": 2,
+  "amount": 100,
+  "rate": 10.0,
+  "organizationId": 1,
+  "calculationType": "SALARY"
+}
+
+### delete
+PUT localhost:8080/calculation/delete/5
+
+### get by id
+GET localhost:8080/calculation/get-byID/5
+
+###
+GET localhost:8080/calculation/employees/rate?startDate=2024-01-01&endDate=2024-01-31&rate=10.0
+
+###
+GET localhost:8080/calculation/employees/multiple-regions?startDate=2024-01-01&endDate=2024-12-31
+

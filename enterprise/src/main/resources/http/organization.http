@@ -1,0 +1,8 @@
+#### create organization
+POST localhost:8080/api/organization/create
+Content-Type: application/json
+
+{
+  "regionId":1,
+  "name": "test"
+}

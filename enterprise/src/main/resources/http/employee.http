@@ -1,0 +1,26 @@
+GET localhost:8080/employees/1
+
+###
+POST localhost:8080/employees/create
+Content-Type: application/json
+
+{
+  "firstName": "Ali",
+  "lastName": "Aliyev",
+  "pinfl": "dasd",
+  "organizationId": 1
+}
+
+####
+GET localhost:8080/employees/getAll
+
+####
+PUT localhost:8080/employees/update/1
+Content-Type: application/json
+
+{
+  "firstName": "haha"
+}
+
+####
+PUT localhost:8080/employees/delete/1

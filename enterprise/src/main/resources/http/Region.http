@@ -1,0 +1,14 @@
+POST localhost:8080/region/create
+Content-Type: application/json
+
+{
+  "name": "test"
+}
+###
+PUT localhost:8080/region/delete/3
+
+###
+GET localhost:8080/region/2
+
+####
+GET localhost:8080/region/getAll
